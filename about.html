@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gothi Technologies - About Us - Providing excellent services</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/frontend/hompage.css">
+
+</head>
+<body>
+    <header class="shadow-sm fixed-top bg-white">
+    <!-- Top Bar -->
+    <div class="bg-primary text-white small py-1">
+        <div class="container d-none d-md-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <a href="mailto:info@gothitech.com" class="text-white">
+                    info@gothitech.com
+                </a>
+
+                <span class="mx-2 text-white">|</span>
+
+                <a href="tel:+33 7 53 84 92 24‬" class="text-white">
+                    +33 7 53 84 92 24‬
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="help.html"
+                    class="text-white text-decoration-none me-3">Help</a>
+                <a href="support.html"
+                    class="text-white text-decoration-none me-3">Support</a>
+                <a href="contact.html"
+                    class="text-white text-decoration-none">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                
+                                    <img src="storage/logos/tQpJ3nDjAnpg2XcV0hGFWL3G1QICPah7YIVWbxtK.png" alt="GothiTech Logo"
+                        style="height: 40px;">
+                            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                                                                                        <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="index.html">
+                                        Home
+                                    </a>
+                                </li>
+                                                                                                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="about.html">
+                                        About
+                                    </a>
+                                </li>
+                                                                                                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="about.html#" id="navbarDropdown2"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                                                    <li>
+                                                <a class="dropdown-item"
+                                                    href="service/web-development-1.html">
+                                                    Web Development
+                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a class="dropdown-item"
+                                                    href="service/graphics-design-and-branding-1.html">
+                                                    Graphics Design And Branding
+                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a class="dropdown-item"
+                                                    href="service/cloud-computing-1.html">
+                                                    Cloud Computing
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </li>
+                                                                                                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="careers.html">
+                                        Career
+                                    </a>
+                                </li>
+                                                                                                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="blog.html">
+                                        Blog
+                                    </a>
+                                </li>
+                                                                                                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="contact.html">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                                                                        </ul>
+                <a href="quote-request.html" class="btn btn-gradient d-none d-lg-inline-block">
+                    Request a Quote
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        
+    <style>
+        .text-gradient {
+            background: linear-gradient(45deg, #2b5876, #4e4376);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hover-card {
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .hover-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+            border-color: #4e4376;
+        }
+
+        .team-img-container {
+            overflow: hidden;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .team-img-container img {
+            transition: transform 0.5s ease;
+        }
+
+        .hover-card:hover .team-img-container img {
+            transform: scale(1.1);
+        }
+
+        .blob-bg {
+            background-color: #f3f4f6;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+
+        /* Section Background - Dark Maroon Gradient like the image */
+        .ceo-section-modern {
+            background: linear-gradient(178deg, #f55e7e 0%, #3d3d40 100%);
+            position: relative;
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Glass Card Effect */
+        .ceo-glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Image Styling with Yellow Accent */
+        .ceo-image-wrapper {
+            position: relative;
+            width: 280px;
+            height: 280px;
+            margin: 0 auto;
+        }
+
+        .ceo-image-bg-circle {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 100%;
+            height: 100%;
+            background-color: #f0ad00;
+            /* Yellow/Gold from image */
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .ceo-profile-img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid rgba(255, 255, 255, 0.9);
+            z-index: 2;
+        }
+
+        /* Small Quote Badge */
+        .quote-badge-small {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+            background: white;
+            color: #976f00;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            z-index: 3;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Typography */
+        .vision-subtitle {
+            color: #ffffff;
+            /* Yellow text */
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .big-quote-icon {
+            font-size: 5rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1;
+            margin-bottom: -20px;
+            display: block;
+        }
+
+        .ceo-quote-text {
+            font-family: 'Merriweather', serif;
+            /* Serif font for quote */
+            font-style: italic;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #f0f0f0;
+        }
+
+        .divider-line {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.3);
+            width: 100%;
+            margin: 25px 0;
+        }
+    </style>
+
+
+    <!-- 1. HERO SECTION -->
+    <section class="py-5 overflow-hidden bg-white">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <span
+                        class="badge bg-light text-primary px-3 py-2 mt-3 justify-content-center rounded-pill mb-3 fw-bold border">ABOUT
+                        US</span>
+                    <h1 class="display-4 fw-bold mb-4 lh-sm">
+                        Providing excellent services <br>
+                        <span class="text-gradient">since 2019</span>
+                    </h1>
+                    <p class="lead text-muted mb-5">
+                        Gothi Technologies As a IT Services Company delivering next-level endpoint management solutions. Designed to help you effortlessly manage, patch, and support all your endpoints with complete reliabili...
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="contact.html" class="btn btn-primary btn-lg rounded-pill px-5 shadow-sm">Contact
+                            Us</a>
+                        <a href="mailto:info@gothitech.com"
+                            class="btn btn-outline-dark btn-lg rounded-pill px-4">
+                            <i class="fas fa-envelope me-2"></i> Email Us
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="position-relative">
+                        <div class="position-absolute top-0 start-0 translate-middle w-100 h-100 bg-primary opacity-10 rounded-circle blur-3xl"
+                            style="filter: blur(60px); z-index: -1;"></div>
+                                                    <img src="storage/company/K40As4aLBl47fTNE0weoX3ovrKzBt9uXBRbSbDfv.jpg" alt="About Hero"
+                                class="img-fluid rounded-4 shadow-lg border border-5 border-white transform-hover">
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Google Fonts (Include this if not already in your layout) -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- 1. CEO MESSAGE SECTION -->
+
+        <section class="ceo-section-modern py-5">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10 col-lg-11">
+
+                        <div class="ceo-glass-card rounded-4 p-4 p-md-5">
+                            <div class="row align-items-center">
+
+                                <!-- Left Side: Image -->
+                                <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                                    <div class="ceo-image-wrapper">
+                                        <!-- Yellow decorative circle behind -->
+                                        <div class="ceo-image-bg-circle"></div>
+
+                                                                                    <img src="storage/ceo/1764666634_main_cjjcgnkmo5.webp"
+                                                class="ceo-profile-img shadow-lg" alt="Mr. Khaled Kazim">
+                                        
+                                        <!-- Small Quote Icon Badge -->
+                                        <div class="quote-badge-small">
+                                            <i class="fas fa-quote-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Right Side: Content -->
+                                <div class="col-lg-7 ps-lg-4">
+                                    <div class="text-content position-relative">
+
+                                        <!-- Top Label -->
+                                        <h6 class="vision-subtitle mb-2">Vision From Leadership</h6>
+
+                                        <!-- Big Quote Icon -->
+                                        <span class="big-quote-icon">
+                                            <i class="fas fa-quote-left"></i>
+                                        </span>
+
+                                        <!-- Main Message -->
+                                        <p class="ceo-quote-text mt-3">
+                                            Welcome to Gothi Technologies!
+My entire entrepreneurial journey is rooted in a fundamental belief: that the primary goal of every endeavor is to improve people&#039;s lives and turn potential into reality. This vision has guided my work across diverse fields—from foundational education (Westpoint School &amp; College, Al Ehsan Academy) and global connection (KKRETS) to community building (ishtikutum restaurant).
+In 2019, this journey naturally led to the establishment of Gothi Technologies.
+Having helped individuals fulfill their global aspirations through Kkr, I realized that businesses, too, need to be similarly globalized and strengthened with modern technology. Today, in an ever-evolving digital world, technology is not just an asset—it is the engine of growth.
+Our Commitment
+At Gothi Technologies, our mission is to be your most reliable technology partner. We specialize in providing cutting-edge:
+System Consulting
+Technological Solutions
+We focus on making your operations more efficient, secure, and ready for tomorrow. We transform complex technological challenges into simple, robust solutions that enable your business to compete and thrive on an international stage.
+My ventures, though diverse, are all connected by a single thread: the commitment to unlock potential.
+I am proud to lead a team that is dedicated to building a better technological future for businesses worldwide.
+Let us partner with you to turn your business&#039;s potential into a powerful, secure, and global reality.
+                                            <span class="d-inline-block ms-1">”</span>
+                                        </p>
+
+                                        <!-- Divider -->
+                                        <div class="divider-line"></div>
+
+                                        <!-- Name & Signature Area -->
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <h4 class="text-white fw-bold mb-0">Mr. Khaled Kazim</h4>
+                                                <small class="text-white-50 text-uppercase letter-spacing-2"
+                                                    style="font-size: 0.8rem;">
+                                                    Founder &amp; CEO, Gothi Technologies
+                                                </small>
+                                            </div>
+
+                                                                                    </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <!-- 2. WHY CHOOSE US -->
+    <section class="py-5 blob-bg">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-6">Why Choose Us?</h2>
+                <div class="bg-primary mx-auto mt-3" style="width: 80px; height: 4px; border-radius: 2px;"></div>
+            </div>
+
+            <div class="row g-4">
+                                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-card bg-white rounded-4 p-4">
+                            <div class="card-body">
+                                <div class="icon-box mb-4 d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-3"
+                                    style="width: 60px; height: 60px;">
+                                                                            <i class="fa fa-industry fs-3"></i>
+                                                                    </div>
+                                <h4 class="card-title fw-bold mb-3">Expertise</h4>
+                                <p class="card-text text-muted">Our cloud experts have extensive experience in designing and implementing cloud
+solutions, leveraging leading platforms and technologies. We ensure best-in-class cloud
+infrastructure management and innovative cloud application development for every client.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-card bg-white rounded-4 p-4">
+                            <div class="card-body">
+                                <div class="icon-box mb-4 d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-3"
+                                    style="width: 60px; height: 60px;">
+                                                                            <i class="fa-solid fa-scale-balanced fs-3"></i>
+                                                                    </div>
+                                <h4 class="card-title fw-bold mb-3">Scalability</h4>
+                                <p class="card-text text-muted">We create cloud architectures that scale seamlessly with your business growth, providing
+flexible cloud computing services that adapt to changing demands and operational needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-card bg-white rounded-4 p-4">
+                            <div class="card-body">
+                                <div class="icon-box mb-4 d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-3"
+                                    style="width: 60px; height: 60px;">
+                                                                            <i class="fa-solid fa-vault fs-3"></i>
+                                                                    </div>
+                                <h4 class="card-title fw-bold mb-3">Cost Optimization</h4>
+                                <p class="card-text text-muted">Our team helps you optimize cloud costs by right-sizing resources, utilizing reserved instances,
+and applying cost-effective strategies—ensuring maximum efficiency for your IT services
+company operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-card bg-white rounded-4 p-4">
+                            <div class="card-body">
+                                <div class="icon-box mb-4 d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-3"
+                                    style="width: 60px; height: 60px;">
+                                                                            <i class="fa-solid fa-shield-halved fs-3"></i>
+                                                                    </div>
+                                <h4 class="card-title fw-bold mb-3">Security and Compliance</h4>
+                                <p class="card-text text-muted">We prioritize cloud security and compliance, implementing enterprise-grade security
+measures, monitoring systems, and regulatory standards to protect your critical data in the
+cloud.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-card bg-white rounded-4 p-4">
+                            <div class="card-body">
+                                <div class="icon-box mb-4 d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-3"
+                                    style="width: 60px; height: 60px;">
+                                                                            <i class="fa-solid fa-people-group fs-3"></i>
+                                                                    </div>
+                                <h4 class="card-title fw-bold mb-3">Collaborative Approach</h4>
+                                <p class="card-text text-muted">As a client-focused IT Services Company, we work closely with your team to understand
+unique business requirements and deliver tailored cloud solutions that drive measurable
+results.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-card bg-white rounded-4 p-4">
+                            <div class="card-body">
+                                <div class="icon-box mb-4 d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-3"
+                                    style="width: 60px; height: 60px;">
+                                                                            <i class="fa-solid fa-square-poll-vertical fs-3"></i>
+                                                                    </div>
+                                <h4 class="card-title fw-bold mb-3">Real-World Results, Not Theoretical Claims</h4>
+                                <p class="card-text text-muted">We’ve built:
+a regional community platform powering discussions and engagement. marketplace systems transacting real revenue. travel and service booking engines driving conversion. service management and billing systems handling financial workflows. Our credibility comes from outcomes, not claims.</p>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    <!-- 3. TEAM SECTION (With Link to Single View) -->
+            <section class="py-5 bg-white">
+            <div class="container py-5">
+                <div class="d-flex justify-content-center mb-5">
+                    <div>
+                        <h2 class="fw-bold display-6 mb-2">Our Expert Team</h2>
+                        <p class="text-muted mb-0 justify-content-center">Meet the minds behind our success</p>
+                    </div>
+                    <!-- Optional: Link to a full team listing page if you have one -->
+                </div>
+
+                <div class="row g-4">
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/2.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <img src="storage/team/11blIVtJAb0QrGfFGOjnz2QCmvQk7FEnrbQCeXNL.jpg"
+                                                class="w-100 h-100 object-fit-contain" alt="Mr. Khaled Kazim">
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Mr. Khaled Kazim</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Founder &amp; CEO, Gothi Technologies</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/3.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <img src="storage/team/5kJkPw5DSJJAYl6yATSXM3Sii2kwH8xM5Ezzbqp5.jpg"
+                                                class="w-100 h-100 object-fit-contain" alt="Professor Patrick Pellennee">
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Professor Patrick Pellennee</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Strategic Advisor</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/4.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <img src="storage/team/HspEcsCs8FwrbotmOlNGc02uLREiuNrRph8rVUYD.jpg"
+                                                class="w-100 h-100 object-fit-contain" alt="H. K. Rasel">
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">H. K. Rasel</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Finance &amp; Compliance Advisor</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/6.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <div class="d-flex align-items-center justify-content-center h-100 text-muted">
+                                                <i class="fas fa-user fa-3x"></i>
+                                            </div>
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Executive HR &amp; Admin</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Executive HR &amp; Admin</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/1.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <img src="storage/team/Ohm6oe7iZDwUqlc27biAtRcP6HU7AbxhvR8k3x2k.png"
+                                                class="w-100 h-100 object-fit-contain" alt="Shourav Das">
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Shourav Das</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Chief Technology Officer, Gothi Technologies</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/7.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <div class="d-flex align-items-center justify-content-center h-100 text-muted">
+                                                <i class="fas fa-user fa-3x"></i>
+                                            </div>
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Marketing &amp; Growth Advisor</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Marketing &amp; Growth Advisor</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/8.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <div class="d-flex align-items-center justify-content-center h-100 text-muted">
+                                                <i class="fas fa-user fa-3x"></i>
+                                            </div>
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Business Development Manager</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Business Development Manager</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/9.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <div class="d-flex align-items-center justify-content-center h-100 text-muted">
+                                                <i class="fas fa-user fa-3x"></i>
+                                            </div>
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Head of Digital Marketing</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Head of Digital Marketing</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/5.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <img src="storage/team/AkEUFNHIH4spao9ENBNvVAotiNsg50TMuKv6QkVr.jpg"
+                                                class="w-100 h-100 object-fit-contain" alt="Khaled ullah">
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Khaled ullah</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            International Marketing Executive</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/10.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <div class="d-flex align-items-center justify-content-center h-100 text-muted">
+                                                <i class="fas fa-user fa-3x"></i>
+                                            </div>
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">International Customer Support Manager</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            International Customer Support Manager</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow hover-card rounded-4">
+                                <!-- Link to Single Member View -->
+                                <a href="about/team/11.html"
+                                    class="text-decoration-none text-dark">
+                                    <div class="team-img-container position-relative bg-light" style="height: 280px;">
+                                                                                    <div class="d-flex align-items-center justify-content-center h-100 text-muted">
+                                                <i class="fas fa-user fa-3x"></i>
+                                            </div>
+                                                                                <!-- Overlay Icon -->
+                                        <div class="position-absolute bottom-0 end-0 p-3">
+                                            <span class="btn btn-primary btn-sm rounded-circle shadow">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center p-4">
+                                        <h5 class="fw-bold mb-1">Creative Designer</h5>
+                                        <p class="text-primary small mb-0 fw-semibold text-uppercase">
+                                            Creative Designer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+    
+    <!-- 4. TESTIMONIALS SECTION (With Link to Index) -->
+            <section class="py-5 bg-light position-relative">
+            <div class="container py-5">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-6">
+                        <span class="text-uppercase text-primary fw-bold tracking-wider">Testimonials</span>
+                        <h2 class="fw-bold display-6 mt-2">What Clients Say</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                                                    <div class="carousel-item active">
+                                        <div class="bg-white p-5 rounded-4 shadow-sm text-center mx-3 border border-light">
+                                            <div class="mb-4 text-warning">
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                            </div>
+                                            <h4 class="fst-italic mb-4 fw-light lh-base">
+                                                "We partnered with Gothi Technologies to build our digital presence, and the result exceeded expectations. From responsive UI to secure ordering featur..."
+                                            </h4>
+
+                                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                                                                                    <img src="storage/testimonials/FC7jMUmmRdgmKlKdkHu38LuvIC4YuzvjXgNpt2W4.png"
+                                                        class="rounded-circle shadow-sm me-3" width="60"
+                                                        height="60" alt="Client">
+                                                                                                <div class="text-start">
+                                                    <h6 class="fw-bold mb-0">Mr. Haroon Ahmed</h6>
+                                                    <small class="text-muted">Chairman
+                                                        at O-Cantine</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="carousel-item ">
+                                        <div class="bg-white p-5 rounded-4 shadow-sm text-center mx-3 border border-light">
+                                            <div class="mb-4 text-warning">
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                            </div>
+                                            <h4 class="fst-italic mb-4 fw-light lh-base">
+                                                "Gothi Technologies played a vital role in developing our platform, ensuring reliability, scalability, and strong performance even under high user load..."
+                                            </h4>
+
+                                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                                                                                    <img src="storage/testimonials/5T969qljXjZHihVS7TMIbxP1UQkw6uBkWkaD2mhx.png"
+                                                        class="rounded-circle shadow-sm me-3" width="60"
+                                                        height="60" alt="Client">
+                                                                                                <div class="text-start">
+                                                    <h6 class="fw-bold mb-0">KKRETS</h6>
+                                                    <small class="text-muted">
+                                                        </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="carousel-item ">
+                                        <div class="bg-white p-5 rounded-4 shadow-sm text-center mx-3 border border-light">
+                                            <div class="mb-4 text-warning">
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                                    <i
+                                                        class="fas fa-star "></i>
+                                                                                            </div>
+                                            <h4 class="fst-italic mb-4 fw-light lh-base">
+                                                "Gothi Technologies transformed our vision into a fully functional community platform. Their team demonstrated exceptional expertise in user experience..."
+                                            </h4>
+
+                                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                                                                                    <img src="storage/testimonials/3mPYTAgLe6f8aI6627Saws3H1kr1ZI8pMSxP3S1x.png"
+                                                        class="rounded-circle shadow-sm me-3" width="60"
+                                                        height="60" alt="Client">
+                                                                                                <div class="text-start">
+                                                    <h6 class="fw-bold mb-0">Md.Shah Alam Howlader</h6>
+                                                    <small class="text-muted">Founder Executive Director andSecretary General
+                                                        at Bakergang Forum</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+                                    aria-hidden="true"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"
+                                    aria-hidden="true"></span>
+                            </button>
+                        </div>
+
+                        <!-- Link to Full Testimonials Page -->
+                        <div class="text-center mt-5">
+                            <a href="testimonials.html" class="btn btn-outline-primary rounded-pill px-4">
+                                View All Reviews <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="bg-primary text-light">
+    <div class="container py-5">
+        <div class="row g-4">
+            <!-- Column 1: About -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex align-items-center mb-3">
+                    <img  src="favicon.ico" class="me-2" alt="Gothi Logo">
+                    <span class="fs-5 fw-bold text-white">GOTHI<br>TECHNOLOGIES</span>
+                </div>
+                <p class="small mb-4">TECH FORWARD, FUTURE READY!</p>
+                <div class="d-flex">
+                    <a href="about.html#" class="social-icon bg-primary-blue"><i class="fab fa-facebook-f"></i></a>
+                    <a href="about.html#" class="social-icon bg-dark"><i class="fab fa-twitter"></i></a>
+                    <a href="about.html#" class="social-icon bg-linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="about.html#" class="social-icon bg-youtube"><i class="fab fa-youtube"></i></a>
+                    <a href="about.html#" class="social-icon bg-instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- Column 2: Quick Links -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-semibold text-white mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="about.html" class="text-decoration-none text-white-50 hover-text-white">About
+                            Us</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-decoration-none text-white-50 hover-text-white">Contact
+                            Us</a></li>
+                    <li class="mb-2"><a href="careers.html" class="text-decoration-none text-white-50 hover-text-white">Career</a>
+                    </li>
+                    <li class="mb-2"><a href="about.html#" class="text-decoration-none text-white-50 hover-text-white">UI and UX
+                            design</a></li>
+                    <li class="mb-2"><a href="about.html#" class="text-decoration-none text-white-50 hover-text-white">Web
+                            development</a></li>
+                    <li class="mb-2"><a href="about.html#" class="text-decoration-none text-white-50 hover-text-white">Company
+                            News</a></li>
+                </ul>
+            </div>
+            <!-- Column 3: Other -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-semibold text-white mb-4">Other</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="https://cloud.gothitech.com/cart.php?a=add&domain=register" class="text-decoration-none text-white-50 hover-text-white">Buy
+                            Domain</a></li>
+                    <li class="mb-2"><a href="https://cloud.gothitech.com/store/shared-hosting" class="text-decoration-none text-white-50 hover-text-white">Buy
+                            Hosting</a></li>
+                    <li class="mb-2"><a href="terms-conditions.html" class="text-decoration-none text-white-50 hover-text-white">Terms and
+                            Conditions</a></li>
+                    <li class="mb-2"><a href="privacy-policy.html" class="text-decoration-none text-white-50 hover-text-white">Privacy
+                            Policy</a></li>
+                    <li class="mb-2"><a href="about.html#" class="text-decoration-none text-white-50 hover-text-white">Our
+                            Partners</a></li>
+                </ul>
+            </div>
+            <!-- Column 4: Newsletter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-envelope me-2"></i>
+                    <a href="mailto:info@gothitech.com"
+                        class="text-decoration-none text-white-50 hover-text-white">info@gothitech.com</a>
+                </div>
+                <p class="small mb-3">Be the first to know about IT innovations.</p>
+                <form action="about.html#">
+                    <input type="email" placeholder="Email Address" class="form-control mb-2">
+                    <button type="submit" class="btn btn-info w-100">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light py-3">
+        <p class="text-center text-secondary small mb-0">Copyright © 2025 Gothi Technologies. All rights reserved.</p>
+    </div>
+</footer>
+    <call-us-selector phonesystem-url="https://1758.3cx.cloud" party="gothitechnologieslim"></call-us-selector>
+    <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"
+        charset="utf-8"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="modulepreload" href="build/assets/app-C17I4fKL.js" /><link rel="modulepreload" href="build/assets/bootstrap-DNxiirP_.js" /><link rel="modulepreload" href="build/assets/custom-3cx-l0sNRNKZ.js" /><script type="module" src="build/assets/app-C17I4fKL.js"></script><script type="module" src="build/assets/bootstrap-DNxiirP_.js"></script><script type="module" src="build/assets/custom-3cx-l0sNRNKZ.js"></script>
+</body>
+
+</html>
